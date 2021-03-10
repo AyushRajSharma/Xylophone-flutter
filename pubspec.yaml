@@ -7,10 +7,13 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.15.1
+
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
+
 
 dev_dependencies:
   flutter_test:
@@ -21,5 +24,11 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - note1.wav
+    - note2.wav
+    - note3.wav
+    - note4.wav
+    - note5.wav
+    - note6.wav
+    - note7.wav
 
